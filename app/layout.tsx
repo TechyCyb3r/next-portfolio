@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   icons: {
-    icon: "/himanshu.png",
-    shortcut: "/himanshu.png",
-    apple: "/himanshu.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   title: {
     default: siteTitle,
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: "/assets/hero.png",
+        url: "/favicon.png",
         width: 1200,
         height: 630,
         alt: "Himanshu Agarwal portfolio hero banner",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    images: ["/assets/hero.png"],
+    images: ["/favicon.png"],
     creator: "@Himansh33864021",
   },
   robots: {
